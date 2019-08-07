@@ -1,0 +1,59 @@
+{
+  "name": "esmbot",
+  "version": "1.0.0",
+  "description": "A Discord bot with miscellaneous features",
+  "main": "app.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "Essem <smswessem@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheEssem/esmBot.git"
+  },
+  "scripts": {
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  },
+  "dependencies": {
+    "@discordjs/uws": "^11.149.1",
+    "@tohru/gm": "^1.3.1",
+    "better-sqlite-pool": "github:eslachance/better-sqlite-pool",
+    "better-sqlite3": "^5.4.0",
+    "bufferutil": "^4.0.1",
+    "cowsay": "^1.4.0",
+    "dblposter": "^1.3.1",
+    "discord-paginationembed": "github:TheEssem/discord-paginationembed",
+    "discord.js": "github:discordjs/discord.js",
+    "dotbeat": "^1.0.2",
+    "enmap": "^4.8.7",
+    "enmap-sqlite": "^2.0.5",
+    "erlpack": "github:discordapp/erlpack",
+    "file-type": "^10.9.0",
+    "google-images": "^2.1.0",
+    "he": "^1.2.0",
+    "is-url": "^1.2.4",
+    "isgd": "^1.1.3",
+    "js-base64": "^2.5.1",
+    "libsodium-wrappers": "^0.7.4",
+    "long-url": "^1.0.2",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "node-opus": "^0.3.2",
+    "qrcode": "^1.3.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "retrotext": "^3.1.0",
+    "sharp": "^0.22.1",
+    "tempy": "^0.2.1",
+    "winston": "^3.2.1",
+    "word-wrap": "^1.2.3",
+    "youtube-search": "^1.1.4",
+    "zlib-sync": "^0.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "mocha": "^5.2.0"
+  }
+}
